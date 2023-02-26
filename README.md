@@ -165,7 +165,7 @@ yarn surge
 ```
 (You could also `yarn s3` or maybe even `yarn ipfs`?)
 
->  😬 Windows users beware!  You may have to change the surge code in `packages/react-app/package.json` to just `"surge": "surge ./build",`
+>  😬 Windows users beware!  You may have to change the surge code in `packages/react-app/package.json` to just `"surge": "surge ./packages/react-app/build",`
 
 ⚙ If you get a permissions error `yarn surge` again until you get a unique URL, or customize it in the command line. 
 
